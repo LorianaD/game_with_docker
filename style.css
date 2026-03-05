@@ -15,6 +15,8 @@ div {
     background-color: black;
     padding: 20px;
     height: 500px;
+    border-radius: 30px;
+    margin: 20px;
 }
 
 .btn {

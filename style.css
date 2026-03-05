@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.display {
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    height: 500px;
+}
+
+.btn {
+    border: none;
+    box-shadow: 4px 4px 5px 0px rgb(0, 0, 0, 0.2);    
+}
+
+.btn-round {
+    background-color: rgb(0, 72, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-winner {
+    background-color: red;
+}
+
+.btn-start {
+    background-color: brown;
+    color: white;
+}
+
+.btn-reset {
+    background-color: azure;
+}
+
+.btn-game {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.hidden {
+    display: none;
+}
